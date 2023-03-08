@@ -1,6 +1,6 @@
 print("Welcome to the game, Paper-Scissors-Rock")
 
-computer = "PSRRSPRPSRPSPRPSPRPS"
+computer = "PSRRSPRPSRPSPRPSPRPS" # creating a string only with letters for the computer's choice.
 
 while True:  # start of the loop.
     for computer_choice in computer:
@@ -34,11 +34,11 @@ while True:  # start of the loop.
             print("You win!")
 
         else:
-            print("Computer chose: " + computer_choice)
+            print("Computer picked: " + computer_choice)
             print("Computer wins!")
 
     print("End of round!")
-    play = input("Type any key to play again or the «ENTER» key to exit the game: ").strip()
+    play = input("Press any key to play again or the «ENTER» key to exit the game: ").strip()
     if play == "":
         print("END OF THE GAME!")
         quit()
