@@ -1,5 +1,5 @@
-# Python-Coding-Mini-projects
-Paper-Scissors-Rock Game
+#Paper-Scissors-Rock Game
+
 This is a simple command-line game called "Paper-Scissors-Rock". The user can play against the computer by choosing between three options: Paper (P), Scissors (S), or Rock (R). 
 The computer's choice is determined by a pre-defined sequence of letters.
 
